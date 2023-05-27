@@ -1,0 +1,18 @@
+.shop {
+    text-align: center;
+    font-size: 1rem;
+    padding: 20px 10px;
+    display: flex;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    background-color: #8957e6;
+}
+
+.shop a {
+    color: #ffff;
+    font-weight: 600;
+    font-size: 18px;
+}

@@ -1,0 +1,13 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding: 15px 15px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    row-gap: 25px;
+    column-gap: 25px;
+    background-color: rgb(144, 163, 247);
+    border:  3px solid black;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px
+}

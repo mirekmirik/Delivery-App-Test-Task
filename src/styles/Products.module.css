@@ -1,0 +1,39 @@
+.products {
+    /* padding: 30px 50px 30px 80px; */
+    padding: 2% 4% 3% 6%;
+    display: flex;
+    row-gap: 40px;
+    flex-grow: 1;
+    border-radius: 10px;
+    border: 3px solid black;
+    overflow-y: scroll;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(144, 163, 247);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+/* .wrapper {
+    width: 1280px;
+    /* max-width: 1280px; */
+/* margin: 0 auto; 
+}*/
+
+::-webkit-scrollbar {
+    width: 20px;
+    /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: yellow;
+    /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: blue;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid yellow;
+    /* creates padding around scroll thumb */
+} 

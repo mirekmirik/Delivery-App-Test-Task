@@ -1,0 +1,81 @@
+.items {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    display: flex;
+    flex-grow: 1;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 15px 15px;
+    flex-direction: column;
+    overflow-y: scroll;
+    /* flex-wrap: wrap; */
+    /* column-gap: 15px; */
+    row-gap: 15px;
+    background-color: rgb(144, 163, 247);
+    border: 3px solid black;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    flex-grow: 1;
+}
+
+.submit {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.total {
+    display: flex;
+    column-gap: 20px;
+}
+
+.coupon {
+    display: flex;
+    align-items: center;
+}
+
+.coupon_title {
+    font-size: 20px;
+    color: #ffff;
+    margin-right: 10px;
+}
+
+.coupon input {
+    /* border-radius: 5px; */
+}
+
+.total_price {
+    font-size: 22px;
+    color: rgb(216, 247, 143);
+    font-weight: 600;
+}
+
+.button {
+    padding: 10px 15px;
+    width: 30%;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.coupon {
+    margin-bottom: 10px;
+}
+
+.input {
+    padding: 15px 15px;
+    font-size: 18px;
+    border: 3px solid black;
+}
+
+.confirm {
+    padding: 15px 15px;
+    font-size: 18px;
+    background-color: #8957e6;
+    color: #ffff;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border: 3px solid black;
+}

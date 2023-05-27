@@ -1,0 +1,70 @@
+
+html {
+    height: 100%;
+}
+
+
+
+body {
+    background-color: rgb(132, 117, 228);
+}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+    color: rgb(216, 247, 143) !important;
+    font-weight: 600 !important;
+}
+
+.success {
+    color: green !important;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.error {
+    color: rgb(243, 135, 135) !important;
+    margin-top: 10px;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+}
+
+
+
+button:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+button:disabled,
+button[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+    /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: yellow;
+    border-radius: 7px;
+    /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(69, 85, 228);
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid yellow;
+    /* creates padding around scroll thumb */
+} 
