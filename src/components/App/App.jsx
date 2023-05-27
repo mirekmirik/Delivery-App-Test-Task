@@ -23,11 +23,12 @@ function App() {
     if (pathname === '/') {
       dispatch(getProducts())
     }
-    dispatch(getCoupons())
-    dispatch(getCartDataFromLocalStorage())
   }, [dispatch, pathname])
-
-
+  
+   useEffect(() => {
+    dispatch(getCartDataFromLocalStorage())
+    dispatch(getCoupons())
+  }, [])
 
 
   return (
